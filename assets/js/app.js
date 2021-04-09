@@ -50,36 +50,12 @@ window.addEventListener("load",function(){
         opacity:0,
         y:-40,
         ease: "power2.out"
-    });
-
-    gsap.from("#about-img",{
-        scrollTrigger:{
-            trigger:".emo-img"        
-        },
-        x: -200,
-        opacity: 0,
-        duration: .6,
-        delay:.8
     })
-    gsap.from(".abt-txt",{
-        scrollTrigger:{
-            trigger:".emo-img"        
-        },
-        y: 80,
+    .from(".about-wrapper",{
         opacity: 0,
-        duration: .6,
-        delay:.8,
-        stagger: .4
+        y: 100,
+        ease: "power2.out"
     })
-    gsap.from(".emo-img",{
-        scrollTrigger:{
-            trigger:".emo-img"        
-        },
-        scale: .1,
-        opacity: 0,
-        duration: 1,
-        delay:.6
-    })    
 })
 
 

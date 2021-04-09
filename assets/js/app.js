@@ -58,7 +58,6 @@ window.addEventListener("load",function(){
     })
 })
 
-
 let tl = gsap.timeline();
 
 tl.to(".preload",{
